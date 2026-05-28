@@ -1,0 +1,45 @@
+# ─── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Next.js ──────────────────────────────────────────────────────────────────
+.next/
+out/
+
+# ─── Environment files ────────────────────────────────────────────────────────
+# Never commit secrets. .env.example is safe to commit (no real values).
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ─── Private monetization docs ────────────────────────────────────────────────
+# These are internal business strategy files, not for public consumption.
+monetization/
+BONUS/
+
+# ─── npm / publishing ─────────────────────────────────────────────────────────
+# package.npm.json is the config for the published npm package — keep private
+# so the exact publishing structure isn't exposed.
+package.npm.json
+*.tgz
+.npmrc
+
+# ─── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# ─── IDE / editor ─────────────────────────────────────────────────────────────
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ─── TypeScript ───────────────────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+coverage/
