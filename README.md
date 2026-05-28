@@ -4,6 +4,12 @@ Production-ready Stripe billing for Next.js + Supabase — with a typed feature 
 
 **Stack:** Next.js 15 (App Router) · TypeScript · Supabase · Stripe · Tailwind CSS
 
+```bash
+npx create-stripe-billing-kit
+```
+
+> Run inside an existing Next.js project to scaffold billing in seconds.
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/stripe-billing-kit)
 
 ---
